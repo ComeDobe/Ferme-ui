@@ -95,12 +95,24 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@angular/cdk/overlay-prebuilt.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jquery/dist/jquery.slim.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "351b4a95-7892-4ee6-8f02-68b1df9dab91"
   }
 }
